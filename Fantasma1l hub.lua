@@ -2,13 +2,13 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/darkDe
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
-    Title = "Fantasma1l hub| Brookhaven RP ",
-    SubTitle = "by: Fantasma1l/renegado6661l",
-    LoadText = "Fantasma1lHub",
-    Flags = "Fantasma1lHub"
+    Title = "Fantasma hub| Brookhaven RP ",
+    SubTitle = "by: Cookies",
+    LoadText = "testando",
+    Flags = "Caguei"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://"72455921762458, BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -17,9 +17,9 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1530913847
 
 
 InfoTab:AddSection({ "Script Information" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Fantasma1l/renegado6661l." })
-InfoTab:AddParagraph({ "Collaborations:", "fantasma1l Hub" })
-InfoTab:AddParagraph({ "You are using:", "Fantasma1l Hub" })
+InfoTab:AddParagraph({ "Owner / Developer:", "ixi362 and gab." })
+InfoTab:AddParagraph({ "Collaborations:", "fantasma Hub" })
+InfoTab:AddParagraph({ "You are using:", "cagado hub " })
 InfoTab:AddParagraph({"Your executor:", executor})
 
 InfoTab:AddSection({ "Rejoin" })
